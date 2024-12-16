@@ -1,0 +1,17 @@
+name: import
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: google-github-actions/auth@v0
+        with:
+          service_account: my-service-account-id@my-project-id.iam.gserviceaccount.com
+          workload_identity_provider: projects/my-project-id/locations/global/workloadIdentityPools/my-pool-id/providers/my-provider-id
+      - uses: r7kamura/google-docs-to-github@v3
+        with:
+          google_drive_folder_id: 10zDWURSmAD99sfukB9ugcVHtT1kzpya7
