@@ -6,7 +6,7 @@ export interface Position {
 
 export interface Item {
   id: string;
-  type: 'speed_boost' | 'jump_boost' | 'shield';
+  type: "speed_boost" | "jump_boost" | "shield";
   position: Position;
 }
 
