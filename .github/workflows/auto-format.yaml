@@ -20,6 +20,5 @@ jobs:
         if: steps.git-check.outputs.modified == 'true'
         run: |
           git config --global user.name 'Dylan'\''s CI Autoformatter'
-          git config --global user.email 'penneydylan@icloud.com'
           git commit -am "Automated changes by prettier"
           git push
