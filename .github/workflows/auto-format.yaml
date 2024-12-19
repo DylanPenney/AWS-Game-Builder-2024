@@ -10,12 +10,7 @@ jobs:
           ref: ${{ github.event.pull_request.head.ref }}
       - name: prettier
         run: |
-          npx prettier --write src/**/*.js
-          npx prettier --write src/**/*.ts
-          npx prettier --write src/**/*.tsx
-          npx prettier --write *.js
-          npx prettier --write *.ts
-          npx prettier --write *.tsx
+          npx prettier --write game/
       - name: Check for modified files
         id: git-check
         run: |
