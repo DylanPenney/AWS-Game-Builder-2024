@@ -1,0 +1,28 @@
+/* src/styles/Game.css */
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.game-canvas {
+  border: 2px solid #333;
+  background-color: #f0f0f0;
+}
+
+.game-stats {
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.game-stats span {
+  padding: 5px 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
