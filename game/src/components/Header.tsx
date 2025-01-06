@@ -3,7 +3,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 import "../styles/Header.css";
 
 const BUTTONS = ["Play", "Settings", "Help"];
-const BUTTONS_DEV = ["High Scores", "Dev Menu"];
+const BUTTONS_DEV = ["High-Scores", "Dev-Menu"];
 
 const DEV =
   window.location.hostname === "localhost" ||
