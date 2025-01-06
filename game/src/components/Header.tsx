@@ -1,12 +1,7 @@
 import React from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import "../styles/Header.css";
-import React from "react";
-import { NavLink, useNavigate } from "react-router-dom";
-import "../styles/Header.css";
 
-const BUTTONS = ["Play", "Settings", "Help"];
-const BUTTONS_DEV = ["High Scores", "Dev Menu"];
 const BUTTONS = ["Play", "Settings", "Help"];
 const BUTTONS_DEV = ["High Scores", "Dev Menu"];
 
