@@ -1,21 +1,21 @@
-import React from 'react'
-import { NavLink, useNavigate } from 'react-router-dom'
-import '../styles/Header.css'
+import React from "react";
+import { NavLink, useNavigate } from "react-router-dom";
+import "../styles/Header.css";
 
-const BUTTONS = ['Play', 'Settings', 'Help']
-const BUTTONS_DEV = ['High Scores', 'Dev Menu']
+const BUTTONS = ["Play", "Settings", "Help"];
+const BUTTONS_DEV = ["High Scores", "Dev Menu"];
 
 const DEV =
-    window.location.hostname === 'localhost' ||
-    window.location.hostname === '127.0.0.1'
+    window.location.hostname === "localhost" ||
+    window.location.hostname === "127.0.0.1";
 
 export const Header: React.FC = () => {
-    const navigate = useNavigate()
+    const navigate = useNavigate();
 
     if (DEV && !BUTTONS.includes(BUTTONS_DEV[0])) {
         BUTTONS_DEV.forEach((button: string) => {
-            BUTTONS.push(button)
-        })
+            BUTTONS.push(button);
+        });
     }
     return (
         <div id="menu">
@@ -27,9 +27,9 @@ export const Header: React.FC = () => {
                 {BUTTONS.map((button) => (
                     <div className="buttonContainer" key={button}>
                         <NavLink
-                            to={`/${button.toLowerCase().replace(' ', '-')}`}
+                            to={`/${button.toLowerCase().replace(" ", "-")}`}
                             className={({ isActive }) =>
-                                isActive ? 'selected' : ''
+                                isActive ? "selected" : ""
                             }
                         >
                             {button}
@@ -38,5 +38,5 @@ export const Header: React.FC = () => {
                 ))}
             </div>
         </div>
-    )
-}
+    );
+};
