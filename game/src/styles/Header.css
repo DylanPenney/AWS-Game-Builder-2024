@@ -10,6 +10,9 @@
   align-items: center; /* align items vertically */
 
   a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     img {
       width: 20px;
       height: 20px;
