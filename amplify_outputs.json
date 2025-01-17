@@ -1,0 +1,127 @@
+{
+  "auth": {
+    "user_pool_id": "us-east-1_XUXA0JP1e",
+    "aws_region": "us-east-1",
+    "user_pool_client_id": "33l89qc5bcnftm272o8ka7hndm",
+    "identity_pool_id": "us-east-1:bb714f9a-1fe7-48f6-88c9-303c99c29a7b",
+    "mfa_methods": [],
+    "standard_required_attributes": ["email"],
+    "username_attributes": ["email"],
+    "user_verification_types": ["email"],
+    "groups": [],
+    "mfa_configuration": "NONE",
+    "password_policy": {
+      "min_length": 8,
+      "require_lowercase": true,
+      "require_numbers": true,
+      "require_symbols": true,
+      "require_uppercase": true
+    },
+    "unauthenticated_identities_enabled": true
+  },
+  "data": {
+    "url": "https://3y7mscdgifcwfdckrs436wjqja.appsync-api.us-east-1.amazonaws.com/graphql",
+    "aws_region": "us-east-1",
+    "api_key": "da2-xekcjiaqlbaidhjrecmsbdewhi",
+    "default_authorization_type": "API_KEY",
+    "authorization_types": ["AMAZON_COGNITO_USER_POOLS", "AWS_IAM"],
+    "model_introspection": {
+      "version": 1,
+      "models": {
+        "Note": {
+          "name": "Note",
+          "fields": {
+            "id": {
+              "name": "id",
+              "isArray": false,
+              "type": "ID",
+              "isRequired": true,
+              "attributes": []
+            },
+            "name": {
+              "name": "name",
+              "isArray": false,
+              "type": "String",
+              "isRequired": false,
+              "attributes": []
+            },
+            "description": {
+              "name": "description",
+              "isArray": false,
+              "type": "Int",
+              "isRequired": false,
+              "attributes": []
+            },
+            "image": {
+              "name": "image",
+              "isArray": false,
+              "type": "String",
+              "isRequired": false,
+              "attributes": []
+            },
+            "createdAt": {
+              "name": "createdAt",
+              "isArray": false,
+              "type": "AWSDateTime",
+              "isRequired": false,
+              "attributes": [],
+              "isReadOnly": true
+            },
+            "updatedAt": {
+              "name": "updatedAt",
+              "isArray": false,
+              "type": "AWSDateTime",
+              "isRequired": false,
+              "attributes": [],
+              "isReadOnly": true
+            }
+          },
+          "syncable": true,
+          "pluralName": "Notes",
+          "attributes": [
+            {
+              "type": "model",
+              "properties": {}
+            },
+            {
+              "type": "auth",
+              "properties": {
+                "rules": [
+                  {
+                    "allow": "public",
+                    "provider": "apiKey",
+                    "operations": ["create", "update", "delete", "read"]
+                  }
+                ]
+              }
+            }
+          ],
+          "primaryKeyInfo": {
+            "isCustomPrimaryKey": false,
+            "primaryKeyFieldName": "id",
+            "sortKeyFieldNames": []
+          }
+        }
+      },
+      "enums": {},
+      "nonModels": {}
+    }
+  },
+  "storage": {
+    "aws_region": "us-east-1",
+    "bucket_name": "amplify-horsegame-ryanloc-amplifynotesdrivebucket1-tosuw6lzqvzf",
+    "buckets": [
+      {
+        "name": "amplifyNotesDrive",
+        "bucket_name": "amplify-horsegame-ryanloc-amplifynotesdrivebucket1-tosuw6lzqvzf",
+        "aws_region": "us-east-1",
+        "paths": {
+          "profile_pictures/*": {
+            "entityidentity": ["get", "list", "write", "delete"]
+          }
+        }
+      }
+    ]
+  },
+  "version": "1.3"
+}

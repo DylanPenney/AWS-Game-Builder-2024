@@ -1,0 +1,78 @@
+#profile-component-guest {
+  background-color: grey; /*https://www.w3schools.com/colors/colors_shades.asp*/
+  border-radius: 5px;
+  margin: 50px auto 5px;
+  padding: 25px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center; /*cba to do flex within entire app component*/
+  gap: 10px;
+
+  width: 90%;
+  min-height: 40%;
+  height: max-content;
+
+  #login-box {
+    display: flex;
+    flex-direction: row;
+    * {
+      height: 30px;
+    }
+  }
+
+  button {
+    cursor: pointer;
+  }
+}
+#profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+#profile-component {
+  background-color: grey; /*https://www.w3schools.com/colors/colors_shades.asp*/
+  border-radius: 5px;
+  margin: 50px auto 5px;
+  padding: 25px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  align-self: center; /*cba to do flex within entire app component*/
+
+  width: 90%;
+  min-height: 40%;
+  height: max-content;
+
+  button {
+    cursor: pointer;
+  }
+
+  #user-change-detail-buttons-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 30px;
+
+    button {
+      span {
+        font-size: 14px;
+      }
+    }
+  }
+
+  #new-detail-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 30px;
+    * {
+      height: 30px;
+    }
+  }
+}

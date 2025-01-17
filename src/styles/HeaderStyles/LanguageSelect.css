@@ -1,0 +1,19 @@
+#language-select {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+
+  span {
+    display: flex;
+    align-items: center;
+  }
+
+  .not-selected {
+    cursor: pointer;
+  }
+  .selected {
+    cursor: pointer;
+    font-weight: bold;
+  }
+}

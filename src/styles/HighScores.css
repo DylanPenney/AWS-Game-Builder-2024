@@ -1,0 +1,95 @@
+#high-scores-component {
+  background-color: grey; /*https://www.w3schools.com/colors/colors_shades.asp*/
+  border-radius: 5px;
+  margin: 50px auto 5px;
+  padding: 25px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center; /*cba to do flex within entire app component*/
+
+  width: 90%;
+
+  #phase1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      margin-bottom: 0px;
+    }
+  }
+
+  #phase2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    button {
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:disabled {
+      cursor: not-allowed;
+    }
+  }
+
+  #phase3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 0px 30px 30px;
+    table {
+      width: 80%;
+      border-collapse: collapse;
+      table-layout: fixed;
+
+      th {
+        border-bottom: 1px solid grey;
+      }
+
+      td,
+      th {
+        border-right: 1px solid grey;
+        padding: 8px;
+      }
+
+      td:last-child,
+      th:last-child {
+        border-right: none; /* Remove border from last column */
+      }
+
+      .user-row {
+        border: 2px solid red !important;
+      }
+
+      tr {
+        td {
+          text-align: center;
+          .user {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            img {
+              width: 30px;
+              height: 30px;
+              border-radius: 50%;
+            }
+            .ProfileImage {
+              width: 30px;
+              height: 30px;
+              border-radius: 50%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

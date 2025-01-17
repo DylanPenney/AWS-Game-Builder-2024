@@ -1,0 +1,48 @@
+{
+    "common": {
+      "sign-out": "Déconnexion",
+      "sign-in": "Connexion"
+    },
+    "header": {
+      "play": "Jouer",
+      "settings": "Paramètres",
+      "high-scores": "Meilleurs Scores",
+      "dev-menu": "Menu Dev",
+  
+      "profile": {
+        "log-in": "Connexion",
+        "not-logged-in-reminder": "Vous n'êtes pas connecté.",
+        "logged-in-as": "Connecté : {{name}}"
+      }
+    },
+    "profile": {
+      "user-page-greeting": "Bonjour, {{name}} !",
+      "change-username": "Changer le nom d'utilisateur",
+      "change-pfp": "Changer la photo de profil",
+      "submit": "Soumettre",
+      "cancel": "Annuler",
+      "upload": "Téléverser",
+      "errors": {
+        "invalid": "Les noms d'utilisateur ne peuvent contenir que des lettres et des chiffres ! Pas d'espaces !",
+        "dupe": "Vous utilisez déjà ce nom d'utilisateur !",
+        "short": "Les noms d'utilisateur doivent comporter au moins 3 caractères !",
+        "profanity": "Pas de vulgarité !"
+      }
+    },
+    "high-scores": {
+      "title": "Meilleurs Scores",
+      "refresh": "Actualiser",
+      "waiting": "En attente des meilleurs scores...",
+      "user": "Utilisateur",
+      "score": "Score",
+      "date": "Date",
+      "last-updated": "Dernière mise à jour : {{date}}"
+    },
+    "game": {
+      "score": "Score : {{scr}}",
+      "restart": "Recommencer",
+      "final-score": "Score Final : {{scr}}",
+      "game-over": "Jeu Terminé"
+    }
+  }
+  

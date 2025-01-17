@@ -1,0 +1,47 @@
+{
+  "common": {
+    "sign-out": "Sign Out",
+    "sign-in": "Sign In"
+  },
+  "header": {
+    "play": "Play",
+    "settings": "Settings",
+    "high-scores": "High Scores",
+    "dev-menu": "Dev Menu",
+
+    "profile": {
+      "log-in": "Log In",
+      "not-logged-in-reminder": "You are not logged in.",
+      "logged-in-as": "Logged in: {{name}}"
+    }
+  },
+  "profile": {
+    "user-page-greeting": "Hello, {{name}}!",
+    "change-username": "Change Username",
+    "change-pfp": "Change profile picture",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "upload": "Upload",
+    "errors": {
+      "invalid": "Usernames can only contain letters and numbers! No spaces!",
+      "dupe": "You're already using that username!",
+      "short": "Usernames must be at least 3 characters long!",
+      "profanity": "Naughty!"
+    }
+  },
+  "high-scores": {
+    "title": "High Scores",
+    "refresh": "Refresh",
+    "waiting": "Waiting for high scores...",
+    "user": "User",
+    "score": "Score",
+    "date": "Date",
+    "last-updated": "Last updated: {{date}}"
+  },
+  "game": {
+    "score": "Score: {{scr}}",
+    "restart": "Restart",
+    "final-score": "Final Score: {{scr}}",
+    "game-over": "Game Over"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "common": {
+    "sign-out": "登出",
+    "sign-in": "登录"
+  },
+  "header": {
+    "play": "开始游戏",
+    "settings": "设置",
+    "high-scores": "最高分",
+    "dev-menu": "开发菜单",
+
+    "profile": {
+      "log-in": "登录",
+      "not-logged-in-reminder": "您尚未登录。",
+      "logged-in-as": "已登录: {{name}}"
+    }
+  },
+  "profile": {
+    "user-page-greeting": "你好，{{name}}！",
+    "change-username": "更改用户名",
+    "change-pfp": "更改头像",
+    "submit": "提交",
+    "cancel": "取消",
+    "upload": "上传",
+    "errors": {
+      "invalid": "用户名只能包含字母和数字！不能有空格！",
+      "dupe": "您已经在使用该用户名！",
+      "short": "用户名必须至少有3个字符！",
+      "profanity": "禁止不雅词语！"
+    }
+  },
+  "high-scores": {
+    "title": "最高分",
+    "refresh": "刷新",
+    "waiting": "正在等待最高分...",
+    "user": "用户",
+    "score": "分数",
+    "date": "日期",
+    "last-updated": "最后更新：{{date}}"
+  },
+  "game": {
+    "score": "得分：{{scr}}",
+    "restart": "重新开始",
+    "final-score": "最终得分：{{scr}}",
+    "game-over": "游戏结束"
+  }
+}

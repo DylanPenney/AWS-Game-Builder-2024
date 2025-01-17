@@ -1,0 +1,48 @@
+{
+    "common": {
+      "sign-out": "Cerrar sesión",
+      "sign-in": "Iniciar sesión"
+    },
+    "header": {
+      "play": "Jugar",
+      "settings": "Configuraciones",
+      "high-scores": "Puntuaciones Altas",
+      "dev-menu": "Menú Dev",
+  
+      "profile": {
+        "log-in": "Iniciar sesión",
+        "not-logged-in-reminder": "No has iniciado sesión.",
+        "logged-in-as": "Conectado: {{name}}"
+      }
+    },
+    "profile": {
+      "user-page-greeting": "Hola, {{name}}!",
+      "change-username": "Cambiar nombre de usuario",
+      "change-pfp": "Cambiar foto de perfil",
+      "submit": "Enviar",
+      "cancel": "Cancelar",
+      "upload": "Subir",
+      "errors": {
+        "invalid": "¡Los nombres de usuario solo pueden contener letras y números! ¡No espacios!",
+        "dupe": "¡Ya estás usando ese nombre de usuario!",
+        "short": "¡Los nombres de usuario deben tener al menos 3 caracteres!",
+        "profanity": "¡Nada de palabrotas!"
+      }
+    },
+    "high-scores": {
+      "title": "Puntuaciones Altas",
+      "refresh": "Actualizar",
+      "waiting": "Esperando puntuaciones altas...",
+      "user": "Usuario",
+      "score": "Puntuación",
+      "date": "Fecha",
+      "last-updated": "Última actualización: {{date}}"
+    },
+    "game": {
+      "score": "Puntuación: {{scr}}",
+      "restart": "Reiniciar",
+      "final-score": "Puntuación Final: {{scr}}",
+      "game-over": "Juego Terminado"
+    }
+  }
+  

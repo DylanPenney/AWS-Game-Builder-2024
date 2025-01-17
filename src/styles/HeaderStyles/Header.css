@@ -1,0 +1,75 @@
+#menu {
+  height: 30px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  background-color: grey;
+
+  justify-content: space-between; /* align items horizontally */
+  align-items: center; /* align items vertically */
+
+  #header-left-buttons-container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+
+    #home-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 30px;
+        height: 20px;
+        padding: 0px 5px;
+        cursor: pointer;
+      }
+    }
+
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 30px;
+        height: 20px;
+        padding: 0px 5px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  #header-middle-buttons-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+    .buttonContainer {
+      background-color: grey;
+
+      text-align: center;
+      justify-content: center;
+
+      a {
+        padding: 0px 5px;
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .selected {
+        background-color: white;
+        color: rgb(8, 6, 6);
+        border-radius: 10px;
+      }
+    }
+
+    .buttonContainer:hover {
+      a {
+        background-color: lightgrey;
+        color: black;
+        cursor: pointer;
+        border-radius: 10px;
+      }
+    }
+  }
+}
