@@ -1,4 +1,4 @@
-### Please Note: Live scoreboards will no longer updated as we have paused AWS billing on this project as there is no need for additional cost now hackathon has ended!
+### Please Note: As we have paused AWS billing on this project live scoreboards will no longer updated and the app can only be accessed through the instructions below.
 
 # Hold your horses!
 > "The **best** horse racing game ever, probably."\
@@ -6,8 +6,8 @@
 
 ## Instructions
 ```bash
-git clone
-cd
+git clone https://github.com/DylanPenney/AWS-Game-Builder-2024.git
+cd AWS-Game-Builder-2024
 npm install
 npm run dev
 ```
