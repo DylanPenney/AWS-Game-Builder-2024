@@ -1,4 +1,4 @@
-### Please Note: As we have paused AWS billing on this project live scoreboards will no longer updated and the app can only be accessed through the instructions below.
+### Please Note: As we have paused AWS billing on this project live scoreboards will no longer updated and the app can only be accessed locally (through the instructions below).
 
 # Hold your horses!
 
