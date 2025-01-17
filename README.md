@@ -1,6 +1,9 @@
 ### Please Note: As we have paused AWS billing on this project live scoreboards will no longer updated and the app can only be accessed through the instructions below.
 
 # Hold your horses!
+
+link: https://master.d3rqtrvg40lp6e.amplifyapp.com
+
 > "The **best** horse racing game ever, probably."\
 > &mdash; <cite>Anonymous Software Engineer, London 2024</cite>
 
