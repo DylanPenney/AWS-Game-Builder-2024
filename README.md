@@ -5,9 +5,41 @@
 > &mdash; <cite>Anonymous Software Engineer, London 2024</cite>
 
 ## Instructions
-```bash
+```sh
 git clone https://github.com/DylanPenney/AWS-Game-Builder-2024.git
 cd AWS-Game-Builder-2024
 npm install
 npm run dev
 ```
+## Errors
+### Git not installed
+#### macOS
+```sh
+zsh: command not found: git
+```
+```bash
+bash: git: command not found
+```
+or
+#### Windows
+```sh
+'git' is not recognized as an internal or external command,
+operable program or batch file.
+```
+Please see the following instructions from the maintainers of git (2024): https://github.com/git-guides/install-git
+
+### npm not installed
+#### macOS
+```sh
+zsh: command not found: npm
+```
+```bash
+bash: npm: command not found
+```
+or
+#### Windows
+```sh
+'npm' is not recognized as an internal or external command,
+operable program or batch file.
+```
+Please see the following instructions from the Node.js website (2024): https://nodejs.org/en/download
